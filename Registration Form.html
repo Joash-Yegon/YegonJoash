@@ -1,0 +1,80 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>REGISTRATION FORM</title>
+            <meta name="viewport" content="with=device-width, initial-
+                   scale=1.0">
+                   <link rel="stylesheet" href="iStyle.css">
+                   <link rel="stylesheet" href="About.css">
+                   <link rel="stylesheet" href="Contact.css">
+                   <link rel="stylesheet" href="Newstyle.css">
+                   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  
+        </head>
+    <body>
+        <section class="header">
+            <nav>
+        
+              <a href="index.html"><img src="images/teamlogo_384.png"></a>
+              <div class="nav-links" Id="navLinks">
+                
+                 
+                <div class="nav-links" Id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                  <li><a href="index.html"></i>HOME </a></li>
+                  <li><a href="About.html"></i>ABOUT </a></li>
+                  <li><a href="BLOG.html"></i>BLOG</a></li>
+                  
+                </ul>
+              </div>
+              <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+        <div class="Container">
+            <div class="Contact-box">
+            
+            <div class="right">
+              <h2>REGISTRATION FORM</h2>
+    
+    <form action="New.php" method="post">
+        <label for ="firstName"> firstName</label> 
+        <input autocomplete="off"  type="text" class="field" id="firstName" name="firstName" required>
+   <label for ="LastName"> LastName</label> 
+   <input autocomplete="off"  type="text" class="field" id="LastName" name="LastName" required>
+   <label for ="Email"> Email</label>  
+   <input autocomplete="off"  type="text" class="field" id="Email" name="Email" required>
+    <div class="left">
+        <label for ="Number"> Number</label> 
+        <input autocomplete="off" type="text" class="field" id="Number" name="Number" required>
+        <label for ="Male"> Gender:</label> 
+        <label><Input type ="Radio"  id="Male" name="Gender" value="M">M</label>
+            <label for ="Female"></label> 
+        <label><Input type ="Radio" name="Gender"  id="Female" value="F" >F</label></br >
+            <label for ="Others"> </label> 
+            <label><Input type ="Radio" name="Gender"  id="Others"  value="o" >O</label> </br >
+
+                <label for ="Password"> password</label> 
+                <input autocomplete="off" type="Password"  class="field" id="Password" name="Password" required>        
+       
+    <!-- <button type="Reset"placeholder="Reset" required>Reset</button></br> -->
+   
+    <button type="Submit" placeholder="Submit" name="Submit" required>Submit</button>
+    </form>
+    </body>
+      <!--Javasscript for Toogle Menu-->
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right="0";
+    }
+    function hideMenu(){
+      navLinks.style.right="-300px";
+    }
+
+  </script>
+
+    </html>
+    

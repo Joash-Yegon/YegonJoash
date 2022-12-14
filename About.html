@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me</title>
+    <link rel="stylesheet" href="About.css">
+    <link rel="stylesheet" href="Newstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="images/teamlogo_384.png"></a>
+      <a href="index.html" class="logo"></a>
+      <div class="nav-links" Id="navLinks">
+      <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html"></i>HOME </a></li>
+          <li><a href="About.html"></i>ABOUT </a></li>
+          <li><a href="BLOG.html"></i>BLOG</a></li>
+          
+
+        </ul>
+      </div>
+ <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+         
+
+  </section>
+ <section class="=About">
+     <div class="main">
+        <img src="images/wer.jpg">
+        <div class="About-text">
+            <h1>About</h1>
+            <h5>Developer<span>& Designer</span></h5>
+            <p>Iam a front-end web Developer. i can provide clean code and pixel perfect design.I
+                also make a web more &more interactive with web animations.I can provide clean code 
+                and pixel perfect design.I also make website more & more ineractive with web animations.
+                A responsive design make your website accessible to all users,regardless of their device.
+            </p>
+            <button type="button"> <a href="Contact.html">Let's Talk</a></button>
+        </div>
+     </div>
+
+
+ </section>
+<!-- js togle menu -->
+ 
+ <script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right="0";
+  }
+  function hideMenu(){
+    navLinks.style.right="-300px";
+  }
+
+</script>
+
+</body>
+</html>

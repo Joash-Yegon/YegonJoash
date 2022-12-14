@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Login Form</title>
+        <meta name="viewport" content="with=device-width, initial-
+                   scale=1.0">
+                   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                   <link rel="stylesheet" href="Newstyle.css">
+              <link rel="script" href="Validate.js">
+        <body>
+            <section class="header">
+                <nav>
+            
+                  <a href="Wolve.html"><img src="images/teamlogo_384.png"></a>
+                  <div class="nav-links" Id="navLinks">
+                   
+                    <div class="nav-links" Id="navLinks">
+                      <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                      <li class="active"><a href="Wolve.html"><i class="fa fa-home"></i>HOME</a> </li>
+                      <li class="active"><a href="About.html"><i class="fa fa-home"></i>ABOUT</a> </li>
+                      <li class="active"><a href="Gallery.html"><i class="fa fa-home"></i>GALLERY</a> </li>
+                    </ul>
+                  </div>
+                  <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+            </section>
+           <div class="loginbox"> 
+<img src="images/User.jfif" class="avatar">
+<h6>Login Here</h6>
+<form class="login_form" action="Login.php" method="post" name="form" >
+    <p>Email</p>
+    <input autocomplete="off" type="text" name="Email" placeholder="Email">
+    <p>Password</p>
+    <input autocomplete="off" type="Password" name="Password" placeholder="Password">
+    <input autocomplete="off" type="Submit" name="Submit" value="Login">
+    <a href="Registration Form.html"> Dont have an account</a></div>
+</form>
+<script src="Login.js"></script>
+        </body>
+     </head>
+       <!--Javasscript for Toogle Menu-->
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right="0";
+    }
+    function hideMenu(){
+      navLinks.style.right="-300px";
+    }
+
+  </script>
+
+</html>
