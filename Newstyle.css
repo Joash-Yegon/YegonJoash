@@ -147,7 +147,8 @@ nav .fa{
 				 background:#33f3ed;
 				 transition:0.3s;
 }
-@media screen and (max-width 480px){
+@media (max-width 480px){
+	
             .jj h1{
 		     font-size: 20px;
 		} 
