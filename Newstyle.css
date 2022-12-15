@@ -147,7 +147,7 @@ nav .fa{
 				 background:#33f3ed;
 				 transition:0.3s;
 }
-@media (max-width 700px){
+@media (max-width:700px){
 	
             .jj h1{
 		     font-size: 20px;
@@ -190,7 +190,7 @@ nav .fa{
 			color:#3498db;
 		}
 }
-@media (max-device-width 480px){
+@media (max-device-width:480px){
   .jj h1{
 		     font-size: 20px;
 		} 
