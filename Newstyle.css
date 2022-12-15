@@ -147,7 +147,7 @@ nav .fa{
 				 background:#33f3ed;
 				 transition:0.3s;
 }
-@media screen and (max-width 780px){
+@media screen and (max-width 480px){
             .jj h1{
 		     font-size: 20px;
 		} 
@@ -235,7 +235,17 @@ h3{
   box-shadow:2px 2px 30px 2px rgb(246, 6, 6);
 	}				
 @media
-(max-width:700px){
+(max-width:480px){
+	
+    .row{
+		     flex-direction:column;
+		}
+		.Services{
+			padding-top: -50px;
+		}
+}	
+@media
+(max-device-width:480px){
 	
     .row{
 		     flex-direction:column;
