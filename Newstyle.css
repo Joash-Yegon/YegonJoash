@@ -147,7 +147,7 @@ nav .fa{
 				 background:#33f3ed;
 				 transition:0.3s;
 }
-@media (max-width 480px){
+@media (max-width 700px){
 	
             .jj h1{
 		     font-size: 20px;
@@ -190,7 +190,48 @@ nav .fa{
 			color:#3498db;
 		}
 }
+@media (max-device-width 480px){
+  .jj h1{
+		     font-size: 20px;
+		} 
+        .nav-links ul li{
+            display:block;
+        }
+        .nav-links{
+            position: absolute;
+            background: #b0a0a0;
+            height: 150vh;
+            width: 200px;
+            top:0;
+            right:-40px;
+            text-align: left;
+            z-index:2;
+            transition: 1s;
+        }
+        nav .fa{
+            display: block;
+            color:rgb(237, 9, 9);
+			margin-left: 10px;
+			font-size: 22px;
+            cursor: pointer;
 
+        }
+        .nav-links ul {
+            padding: 30px;
+        }
+		nav li{
+			display: block;
+			margin: 50px 0;
+			line-height: 30px;
+		}
+		nav a{
+			font-size: 10px;
+		}
+		a.active,a:hover{
+			border:none;
+			color:#3498db;
+		}
+}
 /*----- Services-----*/
 
 .Services{
