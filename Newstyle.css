@@ -20,7 +20,7 @@
 
 .header{ 
 	
-        min-height:10vh;
+        min-height:5vh;
 				width:100%;
 				
 }
@@ -151,6 +151,24 @@ nav .fa{
             .jj h1{
 		     font-size: 20px;
 		} 
+		.jj{
+			width:100%;
+				color:rgb(15, 41, 36);
+				position:absolute;
+				top:50%;
+				left:50%;
+				transform:translate(-50%,-50%);
+				text-align:center;
+	   }
+		.jj h1{
+		   font-size:42px;
+		   padding-top: 5px;
+	   }
+	   .jj p{
+			   margin:10px 0 40px;
+			   font-size:14px;
+			   color:rgb(32, 3, 80);
+			 }  
         .nav-links ul li{
             display:block;
         }
@@ -158,12 +176,13 @@ nav .fa{
             position: absolute;
             background: #b0a0a0;
             height: 150vh;
-            width: 110px;
+            width: 160px;
             top:0;
             right:-40px;
             text-align: left;
             z-index:2;
             transition: 1s;
+			overflow: hidden;
         }
         nav .fa{
             display: block;
@@ -393,6 +412,16 @@ h3{
 	cursor: pointer;
 	padding: 18px 0;
 	
+}
+@media screen and (max-width: 480px){
+	.icons .fa{
+	
+		margin: 0 15px;
+		cursor: pointer;
+		padding: 18px 0;
+		font-size: medium;
+		
+}
 }
     .fa-twitter-square{
 	color: blue;
