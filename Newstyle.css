@@ -34,6 +34,16 @@
 			overflow: hidden;
 			padding-top: -50px;			
 }
+.login{
+	min-height:3vh;
+			width:80%;
+			background:var(--body-color);
+			background-position:center;
+			background-size:cover;
+			overflow: hidden;
+			padding-top: -50px;
+			padding-left: 41%;		
+}
 nav img{
 	width:100px;
  }
