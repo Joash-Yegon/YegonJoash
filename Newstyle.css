@@ -158,22 +158,22 @@ nav .fa{
 		} 
 		.jj{
 			width:100%;
-				color:rgb(15, 41, 36);
+				color:rgb(28, 31, 5);
 				position:absolute;
-				padding-top:-100%;
+				top:39%;
 				left:50%;
 				transform:translate(-50%,-50%);
 				text-align:center;
 	   }
 		.jj h1{
-		   font-size:42px;
-		   padding-top: -100px;
+		   font-size:44px;
+		   
 	   }
 	   .jj p{
 			   margin:10px 0 40px;
-			   font-size:14px;
-			   color:rgb(32, 3, 80);
-			   padding-top: -100px;
+			   font-size:18px;
+			   color:rgb(11, 3, 23);
+			   
 			 }  
         #menu ul li{
             display:block;
@@ -181,8 +181,8 @@ nav .fa{
         #menu{
             position: absolute;
             background: #b0a0a0;
-            height: 40vh;
-            width: 100px;
+            height: 60vh;
+            width: 200px;
             top:0;
             right:0px;
             text-align: right;
@@ -192,12 +192,18 @@ nav .fa{
         }
         nav .fa{
             display: block;
-            color:rgb(237, 9, 9);
+            color:rgb(24, 4, 4);
 			margin-left: 10px;
 			font-size: 22px;
             cursor: pointer;
 
         }
+		.jj p{
+			margin:10px 0 40px;
+			font-size:18px;
+			color:rgb(11, 3, 23);
+			
+		  }  
         #menu ul {
             padding: 30px;
         }
@@ -218,13 +224,22 @@ nav .fa{
   .jj h1{
 		     font-size: 20px;
 		} 
+		.jj{
+			width:100%;
+				color:rgb(28, 31, 5);
+				position:absolute;
+				top:39%;
+				left:50%;
+				transform:translate(-50%,-50%);
+				text-align:center;
+	   }
         #menu ul li{
             display:block;
         }
         #menu{
             position: absolute;
             background: #b0a0a0;
-            height: 150vh;
+            height: 70vh;
             width: 200px;
             top:0;
             right:-40px;
@@ -234,7 +249,7 @@ nav .fa{
         }
         nav .fa{
             display: block;
-            color:rgb(237, 9, 9);
+            color:rgb(35, 4, 4);
 			margin-left: 10px;
 			font-size: 22px;
             cursor: pointer;
