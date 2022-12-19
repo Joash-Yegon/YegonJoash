@@ -170,7 +170,7 @@ nav .fa{
 			width:100%;
 				color:rgb(38, 2, 30);
 				position:absolute;
-				top:39%;
+				top:29%;
 				left:50%;
 				transform:translate(-50%,-50%);
 				text-align:center;
@@ -182,7 +182,6 @@ nav .fa{
 				background-position:center;
 				background-size:cover;
 				overflow: hidden;
-				padding-top: -50px;
 				padding-left: 41%;		
 	}
 	   .jj p{
