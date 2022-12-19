@@ -175,7 +175,16 @@ nav .fa{
 				transform:translate(-50%,-50%);
 				text-align:center;
 	   }
-	
+	   .login{
+		min-height:3vh;
+				width:80%;
+				background:var(--body-color);
+				background-position:center;
+				background-size:cover;
+				overflow: hidden;
+				padding-top: -50px;
+				padding-left: 41%;		
+	}
 	   .jj p{
 			   margin:10px 0 40px;
 			   font-size:18px;
@@ -240,6 +249,16 @@ nav .fa{
 				transform:translate(-50%,-50%);
 				text-align:center;
 	   }
+	   .login{
+		min-height:3vh;
+				width:80%;
+				background:var(--body-color);
+				background-position:center;
+				background-size:cover;
+				overflow: hidden;
+				padding-top: -50px;
+				padding-left: 41%;		
+	}
         #menu ul li{
             display:block;
         }
