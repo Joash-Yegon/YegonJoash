@@ -38,12 +38,15 @@
 	min-height:3vh;
 			width:80%;
 			background:var(--body-color);
-			background-position:center;
-			background-size:cover;
-			overflow: hidden;
+			
 			padding-top: -50px;
-			padding-left: 41%;		
+			 
+			
 }
+.login .hero-btn{
+	align-items: center;
+}
+
 nav img{
 	width:100px;
  }
@@ -153,6 +156,7 @@ nav .fa{
 		background:rgb(7, 179, 39);
 		position:relative;
 		cursor:pointer;
+		left: 50%;
 }		
 .hero-btn:hover{
                  border:1px solid #430aee;
@@ -160,6 +164,23 @@ nav .fa{
 				 transition:0.3s;
 }
 @media (max-width:700px){
+	.hero-btn{
+	    top: -2px;
+        display:inline-block;
+		text-decoration:none;
+		color:var(--lg-color);
+		border:1px solid rgb(155, 39, 39);
+		font-size:12px 13px;
+		background:rgb(7, 179, 39);
+		position:relative;
+		cursor:pointer;
+		left: 50%;
+}		
+.hero-btn:hover{
+                 border:1px solid #430aee;
+				 background:#33f3ed;
+				 transition:0.3s;
+}
 	.Jj{
 		padding-top: -100px;
 	}
@@ -175,14 +196,14 @@ nav .fa{
 				transform:translate(-50%,-50%);
 				text-align:center;
 				padding-bottom:40%;
+				overflow: hidden;
 	   }
 	   .login{
 		min-height:3vh;
-				width:80%;
+				width:100%;
 				background:var(--body-color);
 				background-size:cover;
 				overflow: hidden;
-				padding-left: 30%;	
 				top: 70%;	
 	}
 	   .jj p{
@@ -244,7 +265,7 @@ nav .fa{
 			width:100%;
 				color:rgb(28, 31, 5);
 				position:absolute;
-				top:29%;
+				top:39%;
 				left:50%;
 				transform:translate(-50%,-50%);
 				text-align:center;
@@ -257,7 +278,6 @@ nav .fa{
 				background-position:center;
 				background-size:cover;
 				overflow: hidden;
-				padding-left: 41%;
 				top: 31%;			
 	}
         #menu ul li{
@@ -297,6 +317,24 @@ nav .fa{
 			border:none;
 			color:#3498db;
 		}
+		.hero-btn{
+			top: -2px;
+			display:inline-block;
+			text-decoration:none;
+			color:var(--lg-color);
+			border:1px solid rgb(155, 39, 39);
+			font-size:12px 13px;
+			background:rgb(7, 179, 39);
+			position:relative;
+			cursor:pointer;
+			left: 46%;
+		
+	}		
+	.hero-btn:hover{
+					 border:1px solid #430aee;
+					 background:#33f3ed;
+					 transition:0.3s;
+}
 }
 /*----- Services-----*/
 
