@@ -94,12 +94,12 @@ span{
     width: 700px;
     
 }
-button{
+/* button{
     background:#d409b3; 
     color: beige;
     text-decoration:none;
     border: 2px solid #07ef0f;
-    font-weight: bold;
+    font-weight:lighter;
     padding: 13px 30px;
     transition: 0.5s;
     align-content: center;
@@ -108,4 +108,4 @@ button:hover{
     background: #9adee0;
     border: 2px solid #f9004d;
     cursor: pointer;
-}
+} */

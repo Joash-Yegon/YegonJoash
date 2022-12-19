@@ -46,6 +46,24 @@
     box-shadow: 0,0,19px 5px red;
 
 }
+@media(max-width:700px){
+    .Container{
+        max-width  : 1000px;
+          display: flex;
+          flex-direction:column;
+          height: 100%;
+          
+        }
+        .Contact-box   {
+            max-width: 1000px;
+            display: flex;
+            flex-direction:column;
+            height: 100%;
+            
+
+        }
+
+}
 .right{
     padding: 25px 40px;
 }

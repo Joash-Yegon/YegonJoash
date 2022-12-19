@@ -11,18 +11,20 @@
 <body>
   <section class="header">
     <nav>
+
+       
       <a href="index.html"><img src="images/teamlogo_384.png"></a>
-      <!-- <a href="Wolve.html" class="logo"></a> -->
-      <div class="nav-links" Id="navLinks">
-      <i class="fa fa-times" onclick="hideMenu()"></i>
-        <ul>
+    <button onclick="toggleMenu()">Menu</button>
+      <div id="menu" style="display: none;">
+      <ul>
           <li><a href="index.html"></i>HOME </a></li>
           <li><a href="About.html"></i>ABOUT </a></li>
           <li><a href="BLOG.html"></i>BLOG</a></li>
+          
         </ul>
       </div>
- <i class="fa fa-bars" onclick="showMenu()"></i>
-          </nav>
+  </nav>
+       
 <div class="Container">
                                         <div class="Gallery">
                                           <img src="images/cbc.webp"><a href="images/Stairs.jpg"></a>
@@ -126,12 +128,13 @@
 
 <!-- togle menu -->
 <script>
-  var navLinks = document.getElementById("navLinks");
-  function showMenu(){
-    navLinks.style.right="0";
-  }
-  function hideMenu(){
-    navLinks.style.right="-200px";
+  function toggleMenu(){
+      var menu=document.getElementById("menu");
+      if(menu.style.display === "none"){
+          menu.style.display="block"
+      }else{
+          menu.style.display="none";
+      }
   }
   </script>
 </body>

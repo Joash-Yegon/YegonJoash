@@ -17,20 +17,18 @@
     <nav>
 
        
-        <a href="index.html"><img src="images/teamlogo_384.png"></a>
-      <div class="nav-links" Id="navLinks">
-        <i class="fa fa-times" onclick="hideMenu()"></i>
-         
-
-        <ul>
+      <a href="index.html"><img src="images/teamlogo_384.png"></a>
+    <button onclick="toggleMenu()">Menu</button>
+      <div id="menu" style="display: none;">
+      <ul>
           <li><a href="index.html"></i>HOME </a></li>
           <li><a href="About.html"></i>ABOUT </a></li>
           <li><a href="BLOG.html"></i>BLOG</a></li>
           
         </ul>
       </div>
-      <i class="fa fa-bars" onclick="showMenu()"></i>
-    </nav>
+  </nav>
+       
          
 
 </header>
@@ -76,21 +74,22 @@
       </div>
       
    </div>
-</section><button type="hero-btn"><a href="Contact.html">Let's Talk</a></button></br>
-<button type="hero-btn"> <a href="tel:+25410916518"> Call</a></button>
+</section>
+<a href="Contact.html" class="hero-btn">Let's Talk</a></br>
+<a href="tel:+25410916518" class="hero-btn">Call</a>
 </section>
 <!--Javasscript for Toogle Menu-->
 
 <script>
-  var navLinks = document.getElementById("navLinks");
-  function showMenu(){
-    navLinks.style.right="0";
+  function toggleMenu(){
+      var menu=document.getElementById("menu");
+      if(menu.style.display === "none"){
+          menu.style.display="block"
+      }else{
+          menu.style.display="none";
+      }
   }
-  function hideMenu(){
-    navLinks.style.right="-200px";
-  }
-
-</script>
+  </script>
 </body>
 </html>
        

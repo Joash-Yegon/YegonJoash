@@ -14,23 +14,21 @@
         </head>
     <body>
         <section class="header">
-            <nav>
-        
-              <a href="index.html"><img src="images/teamlogo_384.png"></a>
-              <div class="nav-links" Id="navLinks">
+          <nav>
+
+       
+            <a href="index.html"><img src="images/teamlogo_384.png"></a>
+          <button onclick="toggleMenu()">Menu</button>
+            <div id="menu" style="display: none;">
+            <ul>
+                <li><a href="index.html"></i>HOME </a></li>
+                <li><a href="About.html"></i>ABOUT </a></li>
+                <li><a href="BLOG.html"></i>BLOG</a></li>
                 
-                 
-                <div class="nav-links" Id="navLinks">
-                    <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                  <li><a href="index.html"></i>HOME </a></li>
-                  <li><a href="About.html"></i>ABOUT </a></li>
-                  <li><a href="BLOG.html"></i>BLOG</a></li>
-                  
-                </ul>
-              </div>
-              <i class="fa fa-bars" onclick="showMenu()"></i>
-            </nav>
+              </ul>
+            </div>
+        </nav>
+             
         </section>
         <div class="Container">
             <div class="Contact-box">
@@ -65,16 +63,16 @@
     </body>
       <!--Javasscript for Toogle Menu-->
 
-  <script>
-    var navLinks = document.getElementById("navLinks");
-    function showMenu(){
-      navLinks.style.right="0";
-    }
-    function hideMenu(){
-      navLinks.style.right="-300px";
-    }
-
-  </script>
+      <script>
+        function toggleMenu(){
+            var menu=document.getElementById("menu");
+            if(menu.style.display === "none"){
+                menu.style.display="block"
+            }else{
+                menu.style.display="none";
+            }
+        }
+        </script>
 
     </html>
     
