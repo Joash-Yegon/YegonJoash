@@ -107,20 +107,19 @@ color:var(--lg-color);
 	
 }
 nav .fa{
-	display: none;
-	color:transparent;
+	display:flex;
+	color:rgb(27, 6, 6);
 	margin: 10px;
 	font-size: 22px;
 	cursor: pointer;
 
 }
 
-
 .jj{
      width:100%;
 		 color:rgb(28, 31, 5);
 		 position:absolute;
-		 top:50%;
+		 top:39%;
 		 left:50%;
 		 transform:translate(-50%,-50%);
 		 text-align:center;
