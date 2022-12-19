@@ -170,19 +170,20 @@ nav .fa{
 			width:100%;
 				color:rgb(38, 2, 30);
 				position:absolute;
-				top:29%;
+				top:40%;
 				left:50%;
 				transform:translate(-50%,-50%);
 				text-align:center;
+				padding-bottom:40%;
 	   }
 	   .login{
 		min-height:3vh;
 				width:80%;
 				background:var(--body-color);
-				background-position:center;
 				background-size:cover;
 				overflow: hidden;
-				padding-left: 41%;		
+				padding-left: 30%;	
+				top: 70%;	
 	}
 	   .jj p{
 			   margin:10px 0 40px;
@@ -247,6 +248,7 @@ nav .fa{
 				left:50%;
 				transform:translate(-50%,-50%);
 				text-align:center;
+				padding-bottom: 40%;
 	   }
 	   .login{
 		min-height:3vh;
@@ -255,7 +257,8 @@ nav .fa{
 				background-position:center;
 				background-size:cover;
 				overflow: hidden;
-				padding-left: 41%;		
+				padding-left: 41%;
+				top: 31%;			
 	}
         #menu ul li{
             display:block;
