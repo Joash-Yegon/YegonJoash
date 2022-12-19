@@ -154,7 +154,7 @@ nav .fa{
 		padding-top: -100px;
 	}
             .jj h1{
-		     font-size: 20px;
+		     font-size: 50px;
 		} 
 		.jj{
 			width:100%;
@@ -165,10 +165,7 @@ nav .fa{
 				transform:translate(-50%,-50%);
 				text-align:center;
 	   }
-		.jj h1{
-		   font-size:44px;
-		   
-	   }
+	
 	   .jj p{
 			   margin:10px 0 40px;
 			   font-size:18px;
@@ -222,7 +219,7 @@ nav .fa{
 }
 @media (max-device-width:700px){
   .jj h1{
-		     font-size: 20px;
+		     font-size: 50px;
 		} 
 		.jj{
 			width:100%;
