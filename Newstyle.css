@@ -213,7 +213,7 @@ nav .fa{
         }
         #menu{
             position: absolute;
-            background: none;
+            background: brown;
             height: 60vh;
             width: 200px;
             top:0;
@@ -281,7 +281,7 @@ nav .fa{
         }
         #menu{
             position: absolute;
-            background: none
+            background: brown 
 ;
             height: 70vh;
             width: 200px;
